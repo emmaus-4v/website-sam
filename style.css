@@ -1,0 +1,128 @@
+
+
+/* colour scheme
+ 
+ darkest blue: #004C9C
+ middle blue: #0068D6
+ lightest blue: #1988FF
+
+ darkest orange: #D38600
+ lightest orange: #FFA200
+
+*/
+
+
+
+/* Basislayout */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color: #EEEEEE;  
+    
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: #0068D6;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: #FFA200;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+
+
+nav ul {
+    display:flex;
+    flex-direction: column;
+    align-content: flex-start;
+    transform: translateX(-108%);
+    
+
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+
+    overflow: hidden;
+    position:fixed;
+    width:150px;  
+    z-index: 10;
+
+    top: 100px;
+}
+nav div {
+    display:flex;
+    justify-content: left;
+    transform: translateX(-108%);
+
+    top: 0%;
+
+    background-color: #1988FF;
+
+z-index: 9;
+    position:fixed;
+    width:150px;
+    height: 1000px;
+}
+
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  background-color: #0068D6;
+}
+
+nav li a:hover {
+    background-color: #004C9C;
+}
+
+nav li a.active {
+    background-color: #D38600;
+}
+
+
