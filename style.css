@@ -36,12 +36,18 @@ article {
     text-align: justify;
 }
 
-
 header {
     color: #0068D6;
     text-align: center;
 }
 
+
+
+.subHeader { 
+    color: #0068D6;
+}
+
+li strong { color:#D38600;}
 
 footer {
     text-align: center;
@@ -54,6 +60,13 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+}
+img.godenPlaatjes {
+    border-style: ridge;
+    border-color: #FFA200;
+    border-width: 3px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .smalltext {
@@ -72,6 +85,53 @@ a:hover {
 
 /* navigatiebalk */
 
+#subList-content {
+
+transform: translateX(-11%), translateY(20%);
+top:-950%;
+
+display: none;
+color: white;
+text-align: center;
+
+text-decoration: none;
+background-color: #0068D6;
+width:150px;
+
+
+  
+  z-index: 13;
+
+}
+
+#subList-background {
+    display: none;
+    transform: translateX(-11%);
+
+    top: -1500%;
+
+    background-color: #0068D6;
+
+z-index: 12;
+    position:fixed;
+    width:150px;
+    height: 2000px;
+}
+
+#subList {
+    position: fixed;
+    transform: translateX(-108%);
+    top: 80%;
+    z-index: 11;
+    width: 118px;
+}
+
+#subList:hover #subList-background {
+  display: block;
+}
+#subList:hover #subList-content {
+  display: block;
+}
 
 nav ul {
     display:flex;
@@ -88,10 +148,10 @@ nav ul {
     position:fixed;
     width:150px;  
     z-index: 10;
-
-    top: 100px;
 }
-nav div {
+#List { top: 100px;}
+
+#list-background {
     display:flex;
     justify-content: left;
     transform: translateX(-108%);
@@ -107,7 +167,8 @@ z-index: 9;
 }
 
 
-nav li a {
+
+nav li a, #subList {
     display: block;
     color: white;
     text-align: center;
@@ -124,5 +185,3 @@ nav li a:hover {
 nav li a.active {
     background-color: #D38600;
 }
-
-
