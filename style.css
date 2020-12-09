@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 /* colour scheme
@@ -14,8 +13,6 @@
 
 
 
-=======
->>>>>>> 6f43e47173f5ee6f97f6f268bdc4bb203a31557e
 /* Basislayout */
 
 html, body {
@@ -39,19 +36,12 @@ article {
     text-align: justify;
 }
 
-<<<<<<< HEAD
 header {
     color: #0068D6;
-=======
-
-header {
-    color: skyblue;
->>>>>>> 6f43e47173f5ee6f97f6f268bdc4bb203a31557e
     text-align: center;
 }
 
 
-<<<<<<< HEAD
 
 .subHeader { 
     color: #0068D6;
@@ -59,8 +49,6 @@ header {
 
 li strong { color:#D38600;}
 
-=======
->>>>>>> 6f43e47173f5ee6f97f6f268bdc4bb203a31557e
 footer {
     text-align: center;
     padding-bottom: 10px;
@@ -73,7 +61,6 @@ img.zweefLinks {
     float: left;
     margin-right: 15px;
 }
-<<<<<<< HEAD
 img.godenPlaatjes {
     border-style: ridge;
     border-color: #FFA200;
@@ -81,19 +68,13 @@ img.godenPlaatjes {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-=======
->>>>>>> 6f43e47173f5ee6f97f6f268bdc4bb203a31557e
 
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-<<<<<<< HEAD
     color: #FFA200;
-=======
-    color: skyblue;
->>>>>>> 6f43e47173f5ee6f97f6f268bdc4bb203a31557e
     text-decoration: none;
 }
 
@@ -103,7 +84,6 @@ a:hover {
 
 
 /* navigatiebalk */
-<<<<<<< HEAD
 
 #subList-content {
 
@@ -189,27 +169,11 @@ z-index: 9;
 
 
 nav li a, #subList {
-=======
-nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav li a {
->>>>>>> 6f43e47173f5ee6f97f6f268bdc4bb203a31557e
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-<<<<<<< HEAD
 
   background-color: #0068D6;
 }
@@ -221,18 +185,3 @@ nav li a:hover {
 nav li a.active {
     background-color: #D38600;
 }
-=======
-}
-
-nav li a:hover {
-    background-color: #aaaaaa;
-}
-
-nav li a.active {
-    background-color: skyblue;
-}
-
-
-
-
->>>>>>> 6f43e47173f5ee6f97f6f268bdc4bb203a31557e
